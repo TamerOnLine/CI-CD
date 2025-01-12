@@ -30,7 +30,7 @@ jobs:
           echo "No tests implemented yet"
 
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build-and-test
     steps:
       # Checkout the repository
